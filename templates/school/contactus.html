@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>" || Mikealson Academy || "</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: 10px auto;
+        text-align: center;
+        font-family: arial;
+        transition: all .2s 
+        ease-in-out;
+      }
+  
+      .card:hover{
+        transform: scale(1.1);
+      }
+  
+      .title {
+        color: grey;
+        font-size: 18px;
+        margin-top: 15px;
+      }
+  
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+  
+      button:hover,
+      a:hover {
+        opacity: 0.7;
+      }
+  
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+  
+      a:link {
+        text-decoration: none;
+      }
+  
+      a {
+        color:whitesmoke;
+      }
+  
+    
+  .grid-container {
+    background-color: #eaeaea;
+  }
+
+
+  
+    </style>
+  
+
+</head>
+
+<body>
+
+  {% include "school/navbar.html" %}
+  <br><br>
+
+ 
+
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="card">
+        <a href = "mailto: rahulkulkarni5646@outlook.com"> <img src="{% static "images/RK.png" %}" alt="John" style="width:75%"></a>
+        <p class="title"> RK </p>
+        
+      </div>
+
+    </div>
+
+    <div class="grid-item">
+      <div class="card">
+        <a href = "mailto: harsh.makwana.abc@gmail.com">  <img src="{% static "images/harsh.png" %}" alt="John" style="width:75%"> </a>
+        <p class="title">HARSH</p>
+        
+      </div>
+    </div>
+
+
+     <br>
+
+    
+    <div class="grid-item">
+      <div class="card">
+        <a href = "mailto: farhanansari6915@gmail.com"><img src="{% static "images/FARHAN.png" %}" alt="John" style="width:67%"></a>
+        <p class="title"> FARHAN</p>
+      </div>
+    </div>
+        
+
+        <div class="grid-item">
+          <div class="card">
+            <a href="/"><img src="{% static "images/student2.png" %}" alt="John" style="width:97.5%"></a>
+            <p class="title"> REHAN</p>
+                
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
