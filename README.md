@@ -1,18 +1,4 @@
-# Schoolmanagement
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Mikealson Academy%20Kumar-red)
----
-## screenshots
-### Homepage
-![homepage snap](https://github.com/Mikealson Academykumar1503/schoolmanagement/blob/master/static/screenshots/homepage.png?raw=true)
-### Admin Dashboard
-![dashboard snap](https://github.com/Mikealson Academykumar1503/schoolmanagement/blob/master/static/screenshots/adminhomepage.png?raw=true)
-### Admin Manage Teacher
-![invoice snap](https://github.com/Mikealson Academykumar1503/schoolmanagement/blob/master/static/screenshots/adminteacher.png?raw=true)
-### Attendance
-![doctor snap](https://github.com/Mikealson Academykumar1503/schoolmanagement/blob/master/static/screenshots/attendance.png?raw=true)
-### Teacher Dashboard
-![doctor snap](https://github.com/Mikealson Academykumar1503/schoolmanagement/blob/master/static/screenshots/teacher1.png?raw=true)
----
+
 
 ## Functions
 ### Teacher
