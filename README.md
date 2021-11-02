@@ -60,5 +60,4 @@ https://myaccount.google.com/lesssecureapps
 This project is developed for demo purpose and it's not supposed to be used in real application.
 
 ## Feedback
-## Feedback
 <h3>Any suggestion and feedback is welcome. You can contact me here <br> - https://linktr.ee/Fxrhan .</h3>
